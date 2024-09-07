@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GEU Class Notes Project</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="../css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/yourcode.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+		<script src="../js/script.js" defer></script>
+	</head>
+	<body>
+		<!-- <nav class="nav">
+			<i class="uil uil-bars navOpenBtn"></i>
+			<a href="../html/index.html" class="logo">iClassNotes</a>
+			<ul class="nav-links">
+				<i class="uil uil-times navCloseBtn"></i>
+				<li><a href="../html/index.html">Home</a></li>
+				<li><a href="../html/web_dev.html">Web Development</a></li>
+				<li><a href="../html/os.html">Operating Syatem</a></li>
+				<li><a href="../html/cn.html">Computer Network</a></li>
+				<li><a href="../html/cloud_c.html">Cloud Computing</a></li>
+			</ul>
+			<i class="uil uil-search search-icon" id="searchIcon"></i>
+			<div class="search-box">
+				<i class="uil uil-search search-icon"></i>
+				<input type="text" placeholder="Search here..." />
+			</div>
+		</nav> -->
+
+		<nav>
+			<div class="navbar">
+				<div class="container nav-container">
+					<div class="logo">
+						<h1>Navbar</h1>
+					  </div>
+					  <div class="menu-items">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="./web_dev.html">Web development</a></li>
+						<li><a href="./cn.html">Computer Network</a></li>
+						<li><a href="./cloud_c.html">Cloud</a></li>
+						<li><a href="./os.html">Operating System</a></li>
+						<li><a href="#">Contact</a></li>
+					  </div>
+				</div>
+			</div>
+		</nav>
+
+
+		<nav class="nav-mobile">
+			<div class="navbar">
+			  <div class="container nav-container">
+				  <input class="checkbox" type="checkbox" name="" id="" />
+				  <div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				  </div>  
+				<div class="logo">
+				  <h1>Navbar</h1>
+				</div>
+				<div class="menu-items">
+					<li><a href="./web_dev.html">Web development</a></li>
+					<li><a href="./cn.html">Computer Network</a></li>
+					<li><a href="./cloud_c.html">Cloud</a></li>
+					<li><a href="./os.html">Operating System</a></li>
+					<li><a href="#">Contact</a></li>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+
+		<!-- header section -->
+		<div class="header">
+			<div class="header-content">
+				<h1>Without coding, <span>feels like nothing have to do</span></h1>
+				<p>
+					When it's taking about Crypto , blockchain or other technology
+					termology, I always will have to be there!!<br />I'm always hunger of
+					new technology.
+				</p>
+				<button id="header-ctn-btn">
+					Lets start with Full Stack Development
+				</button>
+			</div>
+			<div class="header-img">
+				<div><img id="header-img-code" src="../img/code.webp" alt="" /></div>
+				<div>
+					<img id="header-img-coding-boy" src="../img/cn.gif" alt="" />
+				</div>
+				<div><img id="header-img-cloud" src="../img/cloud.gif" alt="" /></div>
+			</div>
+		</div>
+
+		<h1 class="between-heading">Subjects</h1>
+
+		<!-- Subjects -->
+		<div class="sub">
+			<div class="sub1">
+				<div>
+					<h2>Full Stack Development</h2>
+					<p>All about HTML, CSS, Js, PHP, MERN</p>
+					<a href="../html/web_dev.html"
+						><button class="sub1-btn">Start Learning...</button></a
+					>
+				</div>
+				<div id="sub1-pic"><img src="../img/web-dev.png" alt="" /></div>
+			</div>
+			<div class="sub1">
+				<div>
+					<h2>Computer Network</h2>
+					<p>Network, Throughput, Data Link Layer, Protocol, HTTP.</p>
+					<a href="../html/cn.html"
+						><button class="sub1-btn">Start Learning...</button></a
+					>
+				</div>
+				<div id="sub1-pic"><img src="../img/cn01.png" alt="" /></div>
+			</div>
+			<div class="sub1">
+				<div>
+					<h2>Operating System</h2>
+					<p>Kernel, Resourse Manangement, Files, Repository, FCFS, SJF.</p>
+					<a href="../html/os.html"
+						><button class="sub1-btn">Start Learning...</button></a
+					>
+				</div>
+				<div id="sub1-pic"><img src="../img/os01.png" alt="" /></div>
+			</div>
+			<div class="sub1">
+				<div>
+					<h2>Cloud Computing</h2>
+					<p>All about HTML, CSS, Js, PHP, MERN</p>
+					<a href="../html/cloud_c.html"
+						><button class="sub1-btn">Start Learning...</button></a
+					>
+				</div>
+				<div id="sub1-pic"><img src="../img/cc01.png" alt="" /></div>
+			</div>
+		</div>
+
+		<!-- <h1 class="between-heading">Download Notes</h1> -->
+
+		<!-- Download Notes -->
+		<div class="download-notes">
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Maths</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development and Computer Network</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Cloud Computing</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div class="dwn-chd-div">
+					<div class="dwn-gc-div">
+						<h2>Full Stack Development</h2>
+						<div>
+							<button class="dwn-nt-hlt">HTML</button>
+							<button class="dwn-nt-hlt">Javascript</button>
+							<button class="dwn-nt-hlt">MERN</button>
+						</div>
+					</div>
+
+					<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- download notes mobile section -->
+		<!-- <div class="download-notes-mob">
+			<div class="dwn-nt1">
+				<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				<h2>Full Stack Development</h2>
+				<div>
+					<button class="dwn-nt-hlt">HTML</button>
+					<button class="dwn-nt-hlt">CSS</button>
+					<button class="dwn-nt-hlt">MERN</button>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				<h2>Full Stack Development</h2>
+				<div>
+					<button class="dwn-nt-hlt">HTML</button>
+					<button class="dwn-nt-hlt">CSS</button>
+					<button class="dwn-nt-hlt">MERN</button>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				<h2>Full Stack Development</h2>
+				<div>
+					<button class="dwn-nt-hlt">HTML</button>
+					<button class="dwn-nt-hlt">CSS</button>
+					<button class="dwn-nt-hlt">MERN</button>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+			<div class="dwn-nt1">
+				<div id="dwn1-pic"><img src="../img/notes.png" alt="" /></div>
+				<h2>Full Stack Development</h2>
+				<div>
+					<button class="dwn-nt-hlt">HTML</button>
+					<button class="dwn-nt-hlt">CSS</button>
+					<button class="dwn-nt-hlt">MERN</button>
+				</div>
+				<div class="dwn-interact">
+					<button id="btn-int-d"><img src="../img/dwn.png" alt="" /></button>
+					<button id="btn-int-l">
+						<img src="../img/heart.png" alt="" />
+					</button>
+				</div>
+			</div>
+		</div> -->
+		<h1 class="between-heading">Don't hesitate, just write!!</h1>
+		<!-- Form -->
+		<div class="form-sec">
+			<form action="" class="form-sty">
+				<div class="form-div">
+					<label class="form-lbl" for="">Enter your first name</label><br />
+					<input class="form-input" type="text" placeholder="First name" />
+				</div>
+				<div class="form-div">
+					<label class="form-lbl" for="">Enter your last name :</label><br />
+					<input class="form-input" type="text" placeholder="Last name" />
+				</div>
+
+				<div class="form-div">
+					<label class="form-lbl" for="">Enter Your email address :</label
+					><br />
+					<input
+						class="form-input"
+						type="text"
+						placeholder="example@gmail.com"
+					/>
+				</div>
+				<div class="form-div">
+					<label class="form-lbl" for="">Select yor quiries :</label><br />
+					<select class="form-sel" name="" id="">
+						<option value="">Notes Problem</option>
+						<option value="">Queston Need</option>
+						<option value="">Subject Quiries</option>
+						<option value="">Guidence Quiries</option>
+						<option value="">Other</option>
+					</select>
+				</div>
+
+				<div class="form-div">
+					<label class="form-lbl" for="">Write yor message</label><br />
+					<textarea
+						class="form-textarea"
+						name=""
+						id=""
+						cols="30"
+						rows="10"
+					></textarea>
+				</div>
+				<div class="form-div-sub">
+					<button class="form-btn-sub">Submit</button>
+				</div>
+				<div class="form-div-sub-mob">
+					<button class="form-btn-sub-mob">Submit</button>
+				</div>
+			</form>
+		</div>
+
+		<h1 class="between-heading">Testimonials</h1>
+		<!-- Testimonials -->
+		<div class="testi-pp-div">
+			<div class="testi-parent-div">
+				<div class="testi-child-div">
+					<img src="../img/person1.png" alt="" />
+					<h3>Anuj Kumar Rathore</h3>
+					<h4>Software Engineer</h4>
+					<p>
+						Hi there, Bob.I’m writing to ask if you wouldn’t mind giving us a
+						short testimonial for our website. We’re updating a few pages, and
+						I’m hoping to add something from you. It would link back to your
+						site, so it’s actually a good thing for your SEO.Would this be ok
+						with you? If this makes you even a little bit uncomfortable, no
+						worries at all. But if you are ok with it, I can send you a very
+						short blurb for you to review, or you can write a sentence or two
+						and send it over. Whatever is easiest for you. Thank you, Bob!
+					</p>
+				</div>
+				<div class="testi-child-div">
+					<img src="../img/person1.png" alt="" />
+					<h3>Anuj Kumar Rathore</h3>
+					<h4>Software Engineer</h4>
+					<p>
+						Hi there, Bob.I’m writing to ask if you wouldn’t mind giving us a
+						short testimonial for our website. We’re updating a few pages, and
+						I’m hoping to add something from you. It would link back to your
+						site, so it’s actually a good thing for your SEO.Would this be ok
+						with you? If this makes you even a little bit uncomfortable, no
+						worries at all. But if you are ok with it, I can send you a very
+						short blurb for you to review, or you can write a sentence or two
+						and send it over. Whatever is easiest for you. Thank you, Bob!
+					</p>
+				</div>
+				<div class="testi-child-div">
+					<img src="../img/person1.png" alt="" />
+					<h3>Anuj Kumar Rathore</h3>
+					<h4>Software Engineer</h4>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet,
+						id laboriosam! Eveniet aut distinctio tempore molestias, fugit
+						reiciendis accusantium nobis! Lorem ipsum dolor sit amet
+						consectetur, adipisicing elit. Unde, provident.
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<!-- footer section -->
+
+		<footer class="footer-sty">
+			<div class="ftr-div1">
+				<div><h2 id="ftr-h2">&copy;iClassNotes 2023</h2></div>
+				<div class="ftr-div-visit">
+					<a class="ftr-vst-a" href="">Report</a>
+					<a class="ftr-vst-a" href="">Join us</a>
+					<button id="ftr-btn-lin">
+						<img src="../img/linkedin.svg" alt="" />
+					</button>
+					<button id="ftr-btn-git">
+						<img src="../img/github.svg" alt="" />
+					</button>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
